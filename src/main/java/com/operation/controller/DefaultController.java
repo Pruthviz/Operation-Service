@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DefaultController {
 
 	@GetMapping("/getData")
-    public @ResponseBody String get() {
-        return "";
-    }
+	public @ResponseBody String get() {
+		return "";
+	}
 }
